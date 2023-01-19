@@ -301,8 +301,9 @@
                  </div>
                  <div class="col-md-8">
                      <div class="owl-carousel owl-theme">
-                         <div class="pricing-card">
-                             <img src="assets/main/img/pricing/1.jpg" alt="">
+                        @include('shared.main.extra_service_rooms')
+                         {{--  <div class="pricing-card">
+                             <img src="assets/main/img/services/KenenisaWeb-19.jpg" alt="">
                              <div class="desc">
                                  <div class="name">Room cleaning</div>
                                  <div class="amount">$50<span>/ month</span></div>
@@ -314,7 +315,7 @@
                              </div>
                          </div>
                          <div class="pricing-card">
-                             <img src="assets/main/img/pricing/2.jpg" alt="">
+                             <img src="assets/main/img/services/KenenisaWeb-20.jpg" alt="">
                              <div class="desc">
                                  <div class="name">Drinks included</div>
                                  <div class="amount">$30<span>/ daily</span></div>
@@ -348,7 +349,7 @@
                                      <li><i class="ti-close unavailable"></i>Clean sorem ipsum morbin</li>
                                  </ul>
                              </div>
-                         </div>
+                         </div>  --}}
                      </div>
                  </div>
              </div>
