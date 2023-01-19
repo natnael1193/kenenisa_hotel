@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Admin\BookController as AdminBookController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Artisan;
 use App\Http\Controllers\Main\BookController;
@@ -44,7 +45,7 @@ Route::resource('room', RoomController::class);
 Route::resource('room_images', RoomImagesController::class);
 Route::post('/upload/images', [RoomController::class, 'imageup'])->name('dropzone.upload');
 Route::post('/upload/image', [RoomController::class, 'single_upload']);
-
+Route::resource('book', AdminBookController::class);
 
 
 
