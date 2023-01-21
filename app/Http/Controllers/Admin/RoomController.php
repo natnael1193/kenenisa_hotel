@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers\Admin;
 
+use Carbon\Carbon;
+use App\Models\Book;
 use App\Models\Room;
 use App\Models\RoomImages;
 use Illuminate\Http\Request;
@@ -23,7 +25,10 @@ class RoomController extends Controller
         $rooms = Room::get();
         foreach ($rooms as $room) {
             $room['image'] = 'http://127.0.0.1:8000/storage/' . $room->image;
+            $room['booked'] = Book::where('room_id', $room['id'])->where('end_date', '>', Carbon::today())->count();
+            $room['free_rooms'] = $room['quantity'] -  $room['booked'];
         }
+        // return $rooms;
         return view('/admin.room.room_list', compact('rooms'));
     }
 

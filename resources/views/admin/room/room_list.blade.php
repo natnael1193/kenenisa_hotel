@@ -10,6 +10,7 @@
                             <div class="row">
                                 <div class="col-12">
                                     <h4>{{ $room->name }}</h4>
+                                    <p>Free Rooms: {{ $room->free_rooms }}</p>
                                 </div>
                             </div>
                             <div class="row d-flex justify-content-center mt-2">
