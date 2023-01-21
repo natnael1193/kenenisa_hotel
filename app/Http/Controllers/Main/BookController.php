@@ -27,8 +27,16 @@ class BookController extends Controller
         ]);
 
         if ($validator->fails()) {
-            return response()->json($validator->errors());
+            return response()->json($validator->errors(), 400);
         }
+        $room = Room::findOrFail($data['room_id']);
+        $room['booked'] = Book::where('room_id', $room['id'])->where('end_date', '>', Carbon::today())->count();
+        $room['free_rooms'] = $room['quantity'] -  $room['booked'];
+        // return $room;
+        if ($room['free_rooms'] <= 0) {
+            return response()->json(["error" => "No free room found"], 400);
+        }
+        // return $data;
         $customer = Customer::create(
             array_merge(
                 $data
