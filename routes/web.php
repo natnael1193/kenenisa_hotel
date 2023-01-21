@@ -36,6 +36,7 @@ Route::get('/about', [MainController::class, 'about']);
 Route::get('/contact', [MainController::class, 'contact']);
 Route::get('/services', [MainController::class, 'service']);
 Route::get('/rooms', [MainController::class, 'room']);
+Route::get('/room_detail/{id}', [MainController::class, 'room_detail']);
 Route::get('free_rooms', [BookController::class, 'free_rooms']);
 
 
