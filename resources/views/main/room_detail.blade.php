@@ -22,9 +22,8 @@
                         <i class="star-rating"></i>
                         <i class="star-rating"></i>
                         <i class="star-rating"></i>
-                        <i class="star-rating"></i>
                     </span>
-                    <div class="section-subtitle">Luxury Hotel</div>
+                    {{-- <div class="section-subtitle">Luxury Hotel</div> --}}
                     <div class="section-title">{{ $room->name }}</div>
                 </div>
                 <div class="col-md-6">
