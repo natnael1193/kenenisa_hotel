@@ -5,15 +5,14 @@
                 <div class="col-md-4">
                     <div class="footer-column footer-about">
                         <h3 class="footer-title">About Hotel</h3>
-                        <p class="footer-about-text">Welcome to the best five-star deluxe hotel in New York. Hotel
-                            elementum sesue the aucan vestibulum aliquam justo in sapien rutrum volutpat.</p>
+                        <p class="footer-about-text">A luxurious hotel that takes its name after Ethiopia's most beloved world class athlete keninsa Bekele, who was born in 1982. keninsa Bekele is a long-distance runner with a long list of achievements and is the current world and Olympic record holder for both the 5000 meters and 10,000 meters events.</p>
 
-                        <div class="footer-language"> <i class="lni ti-world"></i>
+                        {{-- <div class="footer-language"> <i class="lni ti-world"></i>
                             <select onchange="location = this.value;">
                                 <option value="http://duruthemes.com/">English</option>
                                 <option value="http://duruthemes.com/">German</option>
                             </select>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
                 <div class="col-md-3 offset-md-1">
@@ -31,11 +30,11 @@
                 <div class="col-md-4">
                     <div class="footer-column footer-contact">
                         <h3 class="footer-title">Contact</h3>
-                        <p class="footer-contact-text">1616 Broadway NY, New York 10001<br>United States of America
+                        <p class="footer-contact-text">Bole, Addis Ababa<br>Ethiopia
                         </p>
                         <div class="footer-contact-info">
                             <p class="footer-contact-phone"><span class="flaticon-call"></span> +251937981111</p>
-                            <p class="footer-contact-mail">info@luxuryhotel.com</p>
+                            <p class="footer-contact-mail">info@kenenishotel.com</p>
                         </div>
                         <div class="footer-about-social-list">
                             <a href="#"><i class="ti-instagram"></i></a>
@@ -55,7 +54,7 @@
                 <div class="col-md-12">
                     <div class="footer-bottom-inner">
                         <p class="footer-bottom-copy-right">© Copyright 2022 by <a
-                                href="#">DuruThemes.com</a></p>
+                                href="revosolutionsplc.com">Revo Solutions PLC</a></p>
                     </div>
                 </div>
             </div>
