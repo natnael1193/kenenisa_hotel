@@ -2,7 +2,7 @@
 @section('content')
     <!-- Header Banner -->
     <div class="banner-header section-padding valign bg-img bg-fixed" data-overlay-dark="4"
-        data-background="assets/main/img/slider/3.jpg">
+        data-background="assets/main/img/slider/KenenisaWeb-25.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-left caption mt-90">
