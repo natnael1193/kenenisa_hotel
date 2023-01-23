@@ -27,7 +27,7 @@
                     <div class="section-subtitle">Luxury Hotel</div>
                     <div class="section-title">{{ $room->name }}</div>
                 </div>
-                <div class="col-md-7">
+                <div class="col-md-6">
                     <p class="mb-30">{{ $room->description }}</p>
                     <div class="row">
                         <div class="col-md-3">
@@ -45,12 +45,12 @@
                                         <p>Free Wifi</p>
                                     </div>
                                 </li>
-                                <li>
+                                {{-- <li>
                                     <div class="page-list-icon"> <span class="flaticon-clock-1"></span> </div>
                                     <div class="page-list-text">
                                         <p>200 sqft room</p>
                                     </div>
-                                </li>
+                                </li> --}}
                                 <li>
                                     <div class="page-list-icon"> <span class="flaticon-breakfast"></span> </div>
                                     <div class="page-list-text">
@@ -63,12 +63,12 @@
                                         <p>Towels</p>
                                     </div>
                                 </li>
-                                <li>
+                                {{-- <li>
                                     <div class="page-list-icon"> <span class="flaticon-swimming"></span> </div>
                                     <div class="page-list-text">
                                         <p>Swimming Pool</p>
                                     </div>
-                                </li>
+                                </li> --}}
                             </ul>
                         </div>
                         <div class="col-md-12">
@@ -76,69 +76,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 offset-md-1">
-                    <div class="booking-box">
-                        <div class="head-box">
-                            <h6>Rooms & Suites</h6>
-                            <h4>Hotel Booking Form</h4>
-                        </div>
-                        <div class="booking-inner clearfix">
-                            <form action="" class="form1 clearfix">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="input1_wrapper">
-                                            <label>Check in</label>
-                                            <div class="input1_inner">
-                                                <input type="text" class="form-control input datepicker"
-                                                    placeholder="Check in">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="input1_wrapper">
-                                            <label>Check out</label>
-                                            <div class="input1_inner">
-                                                <input type="text" class="form-control input datepicker"
-                                                    placeholder="Check out">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="select1_wrapper">
-                                            <label>Adults</label>
-                                            <div class="select1_inner">
-                                                <select class="select2 select" style="width: 100%">
-                                                    <option value="0">Adults</option>
-                                                    <option value="1">1</option>
-                                                    <option value="2">2</option>
-                                                    <option value="3">3</option>
-                                                    <option value="4">4</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="select1_wrapper">
-                                            <label>Children</label>
-                                            <div class="select1_inner">
-                                                <select class="select2 select" style="width: 100%">
-                                                    <option value="0">Children</option>
-                                                    <option value="1">1</option>
-                                                    <option value="2">2</option>
-                                                    <option value="3">3</option>
-                                                    <option value="4">4</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <button type="submit" class="btn-form1-submit mt-15">Check
-                                            Availability</button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
+                <div class="col-md-5 offset-md-1">
+                    @include('shared.main.search_rooms_one')
                 </div>
             </div>
         </div>
@@ -163,7 +102,7 @@
         </div>
     </section>
     <!-- Pricing -->
-    <section class="pricing section-padding">
+    {{-- <section class="pricing section-padding">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
@@ -234,10 +173,10 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!-- Reservation & Booking Form -->
-    <section class="testimonials">
-        <div class="background bg-img bg-fixed section-padding pb-0" data-background="assets/main/img/slider/2.jpg"
+    <section class="testimonials mt-5 mb-5">
+        <div class="background bg-img bg-fixed section-padding pb-0" data-background="../assets/main/img/slider/KenenisaWeb-25.jpg"
             data-overlay-dark="2">
             <div class="container">
                 <div class="row">
@@ -258,75 +197,14 @@
                     </div>
                     <!-- Booking From -->
                     <div class="col-md-5 offset-md-2">
-                        <div class="booking-box">
-                            <div class="head-box">
-                                <h6>Rooms & Suites</h6>
-                                <h4>Hotel Booking Form</h4>
-                            </div>
-                            <div class="booking-inner clearfix">
-                                <form action="rooms2.html" class="form1 clearfix">
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <div class="input1_wrapper">
-                                                <label>Check in</label>
-                                                <div class="input1_inner">
-                                                    <input type="text" class="form-control input datepicker"
-                                                        placeholder="Check in">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <div class="input1_wrapper">
-                                                <label>Check out</label>
-                                                <div class="input1_inner">
-                                                    <input type="text" class="form-control input datepicker"
-                                                        placeholder="Check out">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="select1_wrapper">
-                                                <label>Adults</label>
-                                                <div class="select1_inner">
-                                                    <select class="select2 select" style="width: 100%">
-                                                        <option value="0">Adults</option>
-                                                        <option value="1">1</option>
-                                                        <option value="2">2</option>
-                                                        <option value="3">3</option>
-                                                        <option value="4">4</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="select1_wrapper">
-                                                <label>Children</label>
-                                                <div class="select1_inner">
-                                                    <select class="select2 select" style="width: 100%">
-                                                        <option value="0">Children</option>
-                                                        <option value="1">1</option>
-                                                        <option value="2">2</option>
-                                                        <option value="3">3</option>
-                                                        <option value="4">4</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <button type="submit" class="btn-form1-submit mt-15">Check
-                                                Availability</button>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
+                        @include('shared.main.search_rooms_one')
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- Clients -->
-    <section class="clients">
+    {{-- <section class="clients">
         <div class="container">
             <div class="row">
                 <div class="col-md-7 owl-carousel owl-theme">
@@ -351,5 +229,5 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 @endsection

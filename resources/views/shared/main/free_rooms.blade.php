@@ -4,11 +4,11 @@
             @foreach ($rooms as $room)
                 <div class="col-md-4">
                     <div class="item">
-                        <div class="position-re o-hidden"> <img src="{{$room->image}}" alt="">
-                        </div> <span class="category"><a href="rooms2.html">Book</a></span>
+                        <div class="position-re o-hidden"> <img src="{{ $room->image }}" alt="">
+                        </div> <span class="category"><a href="{{ url('room_detail', $room->id) }}">Book</a></span>
                         <div class="con">
-                            <h6><a href="">{{ $room->price }}$ / Night</a></h6>
-                            <h5><a href="">{{ $room->name }}</a> </h5>
+                            <h6><a href="{{ url('room_detail', $room->id) }}">{{ $room->price }}$ / Night</a></h6>
+                            <h5><a href="{{ url('room_detail', $room->id) }}">{{ $room->name }}</a> </h5>
                             <div class="line"></div>
                             <div class="row facilities">
                                 <div class="col col-md-7">
@@ -20,7 +20,8 @@
                                     </ul>
                                 </div>
                                 <div class="col col-md-5 text-right">
-                                    <div class="permalink"><a href="">Details <i class="ti-arrow-right"></i></a>
+                                    <div class="permalink"><a href="{{ url('room_detail', $room->id) }}">Details <i
+                                                class="ti-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>

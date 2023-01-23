@@ -18,20 +18,18 @@
                         </div>
                     </div>
                 </div>
-                <div class="col2 c3">
+                <div class="col1 c3">
                     <div class="select1_wrapper">
                         <label>Adults</label>
                         <div class="select1_inner">
                             <select class="select2 select" style="width: 100%" required>
                                 <option value="1">1 Adult</option>
                                 <option value="2">2 Adults</option>
-                                <option value="3">3 Adults</option>
-                                <option value="4">4 Adults</option>
                             </select>
                         </div>
                     </div>
                 </div>
-                <div class="col2 c4">
+                <div class="col1 c4">
                     <div class="select1_wrapper">
                         <label>Children</label>
                         <div class="select1_inner">
@@ -45,7 +43,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col2 c5">
+                {{-- <div class="col2 c5">
                     <div class="select1_wrapper">
                         <label>Rooms</label>
                         <div class="select1_inner">
@@ -57,7 +55,7 @@
                             </select>
                         </div>
                     </div>
-                </div>
+                </div> --}}
                 <div class="col3 c6">
                     <button type="submit" class="btn-form1-submit">Check Now</button>
                 </div>
