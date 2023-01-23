@@ -247,7 +247,7 @@
      </section> --}}
      @include('shared.main.rooms')
      <!-- Pricing -->
-     <section class="pricing section-padding bg-black">
+     {{-- <section class="pricing section-padding bg-black">
          <div class="container">
              <div class="row">
                  <div class="col-md-4">
@@ -267,62 +267,15 @@
                  <div class="col-md-8">
                      <div class="owl-carousel owl-theme">
                         @include('shared.main.extra_service_rooms')
-                         {{--  <div class="pricing-card">
-                             <img src="assets/main/img/services/KenenisaWeb-19.jpg" alt="">
-                             <div class="desc">
-                                 <div class="name">Room cleaning</div>
-                                 <div class="amount">$50<span>/ month</span></div>
-                                 <ul class="list-unstyled list">
-                                     <li><i class="ti-check"></i> Hotel ut nisan the duru</li>
-                                     <li><i class="ti-check"></i> Orci miss natoque vasa ince</li>
-                                     <li><i class="ti-close unavailable"></i>Clean sorem ipsum morbin</li>
-                                 </ul>
-                             </div>
-                         </div>
-                         <div class="pricing-card">
-                             <img src="assets/main/img/services/KenenisaWeb-20.jpg" alt="">
-                             <div class="desc">
-                                 <div class="name">Drinks included</div>
-                                 <div class="amount">$30<span>/ daily</span></div>
-                                 <ul class="list-unstyled list">
-                                     <li><i class="ti-check"></i> Hotel ut nisan the duru</li>
-                                     <li><i class="ti-check"></i> Orci miss natoque vasa ince</li>
-                                     <li><i class="ti-close unavailable"></i>Clean sorem ipsum morbin</li>
-                                 </ul>
-                             </div>
-                         </div>
-                         <div class="pricing-card">
-                             <img src="assets/main/img/pricing/3.jpg" alt="">
-                             <div class="desc">
-                                 <div class="name">Room Breakfast</div>
-                                 <div class="amount">$30<span>/ daily</span></div>
-                                 <ul class="list-unstyled list">
-                                     <li><i class="ti-check"></i> Hotel ut nisan the duru</li>
-                                     <li><i class="ti-check"></i> Orci miss natoque vasa ince</li>
-                                     <li><i class="ti-close unavailable"></i>Clean sorem ipsum morbin</li>
-                                 </ul>
-                             </div>
-                         </div>
-                         <div class="pricing-card">
-                             <img src="assets/main/img/pricing/4.jpg" alt="">
-                             <div class="desc">
-                                 <div class="name">Safe & Secure</div>
-                                 <div class="amount">$15<span>/ daily</span></div>
-                                 <ul class="list-unstyled list">
-                                     <li><i class="ti-check"></i> Hotel ut nisan the duru</li>
-                                     <li><i class="ti-check"></i> Orci miss natoque vasa ince</li>
-                                     <li><i class="ti-close unavailable"></i>Clean sorem ipsum morbin</li>
-                                 </ul>
-                             </div>
-                         </div>  --}}
+                         
                      </div>
                  </div>
              </div>
          </div>
-     </section>
+     </section> --}}
      <!-- Promo Video -->
      <section class="video-wrapper video section-padding bg-img bg-fixed" data-overlay-dark="3"
-         data-background="assets/main/img/slider/2.jpg">
+         data-background="assets/main/img/rooms/KenenisaWeb-13.jpg">
          <div class="container">
              <div class="row">
                  <div class="col-md-8 offset-md-2 text-center">
@@ -334,7 +287,7 @@
              </div>
              <div class="row">
                  <div class="text-center col-md-12">
-                     <a class="vid" href="https://youtu.be/7BGNAGahig8">
+                     <a class="vid" href="https://www.youtube.com/watch?v=k-djf447R9M">
                          <div class="vid-butn">
                              <span class="icon">
                                  <i class="ti-control-play"></i>
@@ -383,7 +336,7 @@
                  <div class="col-md-4">
                      <div class="single-facility animate-box" data-animate-effect="fadeInUp">
                          <span class="flaticon-swimming"></span>
-                         <h5>Swimming Pool</h5>
+                         <h5>SPA</h5>
                          <p>Swimming pool tincidunt nise ace park norttito sit space, mus nellentesque habitant.</p>
                          <div class="facility-shape"> <span class="flaticon-swimming"></span> </div>
                      </div>
@@ -409,7 +362,7 @@
      </section>
      <!-- Testiominals -->
      <section class="testimonials">
-         <div class="background bg-img bg-fixed section-padding pb-0" data-background="assets/main/img/slider/2.jpg"
+         <div class="background bg-img bg-fixed section-padding pb-0" data-background="assets/main/img/slider/KenenisaWeb-24.jpg"
              data-overlay-dark="3">
              <div class="container">
                  <div class="row">
@@ -423,49 +376,27 @@
                              <div class="owl-carousel owl-theme">
                                  <div class="item">
                                      <span class="quote"><img src="assets/main/img/quot.png" alt=""></span>
-                                     <p>Hotel dapibus asue metus the nec feusiate eraten miss hendreri net ve ante the
-                                         lemon sanleo nectan feugiat erat hendrerit necuis ve ante otel inilla duiman at
-                                         finibus viverra neca the sene on satien the miss drana inc fermen norttito sit
-                                         space, mus nellentesque habitan.</p>
+                                     <p>The staff were very polite and very helpful. The room was clean with a great view. It offers airport shuttle, WiFi works very well</p>
                                      <div class="info">
-                                         <div class="author-img"> <img src="assets/main/img/team/4.jpg" alt="">
+                                         <div class="author-img"> <img src="https://lh3.googleusercontent.com/a-/AD5-WCnn9382MbFwb9lJmyptLvtsOyz3slhNcQjtwDLRpw=s40-c-c0x00000000-cc-rp-mo-ba3-br100" alt="">
                                          </div>
                                          <div class="cont"> <span><i class="star-rating"></i><i
                                                      class="star-rating"></i><i class="star-rating"></i><i
                                                      class="star-rating"></i><i class="star-rating"></i></span>
-                                             <h6>Emily Brown</h6> <span>Guest review</span>
+                                             <h6>Tonderai Muchenje</h6> <span>Guest review</span>
                                          </div>
                                      </div>
                                  </div>
                                  <div class="item">
                                      <span class="quote"><img src="assets/main/img/quot.png" alt=""></span>
-                                     <p>Hotel dapibus asue metus the nec feusiate eraten miss hendreri net ve ante the
-                                         lemon sanleo nectan feugiat erat hendrerit necuis ve ante otel inilla duiman at
-                                         finibus viverra neca the sene on satien the miss drana inc fermen norttito sit
-                                         space, mus nellentesque habitan.</p>
+                                     <p>A clean modern and great self contained with a restaurant, bar and disco club. Located in a perfect location with shopping malls around. It has a nice view of Bole city and next to a synagogue.</p>
                                      <div class="info">
-                                         <div class="author-img"> <img src="assets/main/img/team/1.jpg" alt="">
+                                         <div class="author-img"> <img src="https://lh3.googleusercontent.com/a-/AD5-WCm5hJ1Q63_50D6Res7E-nKtYkZThVZHlpwv3_XWRQ=w75-h75-p-rp-mo-ba3-br100" alt="">
                                          </div>
                                          <div class="cont"> <span><i class="star-rating"></i><i
                                                      class="star-rating"></i><i class="star-rating"></i><i
                                                      class="star-rating"></i><i class="star-rating"></i></span>
-                                             <h6>Nolan White</h6> <span>Guest review</span>
-                                         </div>
-                                     </div>
-                                 </div>
-                                 <div class="item">
-                                     <span class="quote"><img src="assets/main/img/quot.png" alt=""></span>
-                                     <p>Hotel dapibus asue metus the nec feusiate eraten miss hendreri net ve ante the
-                                         lemon sanleo nectan feugiat erat hendrerit necuis ve ante otel inilla duiman at
-                                         finibus viverra neca the sene on satien the miss drana inc fermen norttito sit
-                                         space, mus nellentesque habitan.</p>
-                                     <div class="info">
-                                         <div class="author-img"> <img src="assets/main/img/team/5.jpg" alt="">
-                                         </div>
-                                         <div class="cont"> <span><i class="star-rating"></i><i
-                                                     class="star-rating"></i><i class="star-rating"></i><i
-                                                     class="star-rating"></i><i class="star-rating"></i></span>
-                                             <h6>Olivia Martin</h6> <span>Guest review</span>
+                                             <h6>Emmanuel Wandera</h6> <span>Guest review</span>
                                          </div>
                                      </div>
                                  </div>
@@ -479,7 +410,7 @@
      <!-- Services -->
      @include('shared.main.services')
      <!-- News -->
-     <section class="news section-padding bg-black">
+     {{-- <section class="news section-padding bg-black">
          <div class="container">
              <div class="row">
                  <div class="col-md-12">
@@ -570,24 +501,23 @@
                  </div>
              </div>
          </div>
-     </section>
+     </section> --}}
      <!-- Reservation & Booking Form -->
      <section class="testimonials">
-         <div class="background bg-img bg-fixed section-padding pb-0" data-background="assets/main/img/slider/2.jpg"
+         <div class="background bg-img bg-fixed section-padding pb-0" data-background="assets/main/img/rooms/KenenisaWeb-13.jpg"
              data-overlay-dark="2">
              <div class="container">
                  <div class="row">
                      <!-- Reservation -->
                      <div class="col-md-5 mb-30 mt-30">
                          <p><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i><i
-                                 class="star-rating"></i><i class="star-rating"></i></p>
+                                 class="star-rating"></i></p>
                          <h5>Each of our guest rooms feature a private bath, wi-fi, cable television and include full
                              breakfast.</h5>
                          <div class="reservations mb-30">
                              <div class="icon color-1"><span class="flaticon-call"></span></div>
                              <div class="text">
-                                 <p class="color-1">Reservation</p> <a class="color-1" href="tel:855-100-4444">855 100
-                                     4444</a>
+                                 <p class="color-1">Reservation</p> <a class="color-1" href="tel:+251937981111">+251937981111</a>
                              </div>
                          </div>
                          <p><i class="ti-check"></i><small>Call us, it's toll-free.</small></p>
@@ -662,7 +592,7 @@
          </div>
      </section>
      <!-- Clients -->
-     <section class="clients">
+     {{-- <section class="clients">
          <div class="container">
              <div class="row">
                  <div class="col-md-7 owl-carousel owl-theme">
@@ -687,5 +617,5 @@
                  </div>
              </div>
          </div>
-     </section>
+     </section> --}}
  @endsection

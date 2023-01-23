@@ -20,12 +20,11 @@
                     <div class="footer-column footer-explore clearfix">
                         <h3 class="footer-title">Explore</h3>
                         <ul class="footer-explore-list list-unstyled">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="rooms.html">Rooms & Suites</a></li>
-                            <li><a href="restaurant.html">Restaurant</a></li>
-                            <li><a href="spa-wellness.html">Spa & Wellness</a></li>
-                            <li><a href="about.html">About Hotel</a></li>
-                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="{{url('/')}}">Home</a></li>
+                            {{-- <li><a href="{{url('/')}}">Rooms</a></li> --}}
+                            <li><a href="{{url('/services')}}">Service</a></li>
+                            <li><a href="{{url('/about')}}">About</a></li>
+                            <li><a href="{{url('/contact')}}">Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -35,7 +34,7 @@
                         <p class="footer-contact-text">1616 Broadway NY, New York 10001<br>United States of America
                         </p>
                         <div class="footer-contact-info">
-                            <p class="footer-contact-phone"><span class="flaticon-call"></span> 855 100 4444</p>
+                            <p class="footer-contact-phone"><span class="flaticon-call"></span> +251937981111</p>
                             <p class="footer-contact-mail">info@luxuryhotel.com</p>
                         </div>
                         <div class="footer-about-social-list">

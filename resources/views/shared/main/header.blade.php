@@ -3,7 +3,7 @@
         <div class="container">
             <!-- Logo -->
             <div class="logo-wrapper navbar-brand valign">
-                <a href="index.html">
+                <a href="/">
                     <div class="logo">
                         <img src="assets/main/img/logo.png" class="logo-img" alt="">
                     </div>

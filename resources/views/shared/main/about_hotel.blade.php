@@ -8,7 +8,6 @@
                     <i class="star-rating"></i>
                     <i class="star-rating"></i>
                     <i class="star-rating"></i>
-                    <i class="star-rating"></i>
                 </span>
                 <div class="section-subtitle">The Cappa Luxury Hotel</div>
                 <div class="section-title">Enjoy a Luxury Experience</div>
@@ -19,8 +18,8 @@
                 <div class="reservations">
                     <div class="icon"><span class="flaticon-call"></span></div>
                     <div class="text">
-                        <p>Reservation</p> <a href="tel:855-100-4444">855 100 4444</a>
-                        <p></p> <a href="tel:855-100-4444">855 100 4444</a>
+                        <p>Reservation</p> <a href="tel:+251937981111">+251937981111</a>
+                        {{-- <p></p> <a href="tel:855-100-4444">855 100 4444</a> --}}
                     </div>
                 </div>
             </div>
