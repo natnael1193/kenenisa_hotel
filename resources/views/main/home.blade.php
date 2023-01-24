@@ -95,11 +95,11 @@
          </div>
          <!-- slider reservation -->
          <div class="reservation">
-             <a href="tel:8551004444">
+             <a href="tel:+251937981111">
                  <div class="icon d-flex justify-content-center align-items-center">
                      <i class="flaticon-call"></i>
                  </div>
-                 <div class="call"><span>855 100 4444</span> <br>Reservation</div>
+                 <div class="call"><span>+251937981111</span> <br>Reservation</div>
              </a>
          </div>
      </header>

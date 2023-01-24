@@ -3,18 +3,18 @@
         <div class="container">
             <!-- Logo -->
 
-                <div class="logo-wrapper navbar-brand valign">
+            {{-- <div class="logo-wrapper navbar-brand valign">
                     <a href="/">
                         <div class="logo">
-                            {{-- <img src="assets/main/img/logo.png" class="logo-img" alt=""> --}}
-                            <h4>Kenenisa Hotel</h4>
+                            <img src="assets/main/img/logo.png" class="logo-img" alt="">
                         </div>
                     </a>
-                </div>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation"> <span class="icon-bar"><i class="ti-line-double"></i></span>
-                </button>
+                </div> --}}
+            <img src="assets/main/img/logo1.png" alt="" style="width: 100px; hight: 60px">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span
+                    class="icon-bar"><i class="ti-line-double"></i></span>
+            </button>
 
 
             <!-- Navbar links -->
